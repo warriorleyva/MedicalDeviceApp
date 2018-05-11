@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{1BF3E20B-E72C-4C97-98AF-03D912D7148C}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MedicalPhotonDevice/SettingsPage.xaml.cs">
     <Files>
-      <File FileName="MedicalPhotonDevice/MainPage.xaml.cs" Line="13" Column="2" />
-      <File FileName="MedicalPhotonDevice/PatientListPage.xaml.cs" Line="48" Column="55" />
+      <File FileName="MedicalPhotonDevice/MainPage.xaml.cs" Line="53" Column="90" />
+      <File FileName="MedicalPhotonDevice/PatientDetailPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MedicalPhotonDevice/PatientHealthDetail.xaml.cs" Line="1" Column="1" />
       <File FileName="MedicalPhotonDevice/PatientHealthHistory.xaml.cs" Line="17" Column="29" />
+      <File FileName="MedicalPhotonDevice/PatientListPage.xaml.cs" Line="48" Column="55" />
       <File FileName="MedicalPhotonDevice/PatientPage.xaml.cs" Line="64" Column="44" />
-      <File FileName="MedicalPhotonDevice/PatientSensorsPage.xaml.cs" Line="67" Column="10" />
-      <File FileName="MedicalPhotonDevice/PatientHealthHistory.xaml" Line="20" Column="1" />
-      <File FileName="MedicalPhotonDevice/PatientHealthDetail.xaml" Line="32" Column="1" />
+      <File FileName="MedicalPhotonDevice/PatientSensorsPage.xaml.cs" Line="21" Column="90" />
+      <File FileName="MedicalPhotonDevice/SettingsPage.xaml.cs" Line="13" Column="90" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MedicalPhotonDevice.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.17A188C1-DB9A-48E4-A5C3-4BDC2AB2DCAE" automaticSigning="True">

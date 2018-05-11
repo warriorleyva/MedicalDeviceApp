@@ -50,7 +50,7 @@ namespace MedicalPhotonDevice
 
     public partial class MainPage : ContentPage
     {
-		private const string Url = "https://api.particle.io/v1/devices/4b0047000751353530373132";
+		private const string Url = "https://api.particle.io/v1/devices/2c0022001951353337343731";
 
         private HttpClient PhotonHttpClient = new HttpClient();
 
