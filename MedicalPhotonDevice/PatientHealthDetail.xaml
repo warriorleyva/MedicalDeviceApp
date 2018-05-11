@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="MedicalPhotonDevice.PatientHealthDetail">
+
+    <TableView RowHeight="55">
+        <TableRoot>
+            <TableSection Title="Detalle de Sensores">
+            <ViewCell>
+                <StackLayout Orientation="Horizontal" Padding="20,0">
+                    <Label Text="Pulso: " TextColor="Black" FontSize="17" VerticalOptions="Center"></Label>
+                    <Label Text="{Binding Bmp}" HorizontalOptions="EndAndExpand" VerticalOptions="Center"></Label>
+                </StackLayout>
+            </ViewCell>
+            <ViewCell>
+                <StackLayout Orientation="Horizontal" Padding="20,0">
+                    <Label Text="SPO2: " TextColor="Black" FontSize="17" VerticalOptions="Center"></Label>
+                    <Label Text="{Binding Spo2}" HorizontalOptions="EndAndExpand" VerticalOptions="Center"></Label>
+                </StackLayout>
+            </ViewCell>
+            <ViewCell>
+                <StackLayout Orientation="Horizontal" Padding="20,0">
+                    <Label Text="Temperatura: " TextColor="Black" FontSize="17" VerticalOptions="Center"></Label>
+                    <Label Text="{Binding Temp}" HorizontalOptions="EndAndExpand" VerticalOptions="Center"></Label>
+                </StackLayout>
+            </ViewCell>
+                </TableSection>
+        </TableRoot>
+    </TableView>
+
+</ContentPage>

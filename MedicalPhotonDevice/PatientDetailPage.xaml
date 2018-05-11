@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="MedicalPhotonDevice.PatientDetailPage"
+             Title="{Binding Name}">
+
+    <TableView RowHeight="55">
+        <TableRoot>
+            <TableSection Title="Datos Personales">
+            <ViewCell>
+                <StackLayout Orientation="Horizontal" Padding="20,0">
+                    <Label Text="Nombre: " TextColor="Black" FontSize="17" VerticalOptions="Center"></Label>
+                    <Label Text="{Binding Name}" HorizontalOptions="EndAndExpand" VerticalOptions="Center"></Label>
+                </StackLayout>
+            </ViewCell>
+            <ViewCell>
+                <StackLayout Orientation="Horizontal" Padding="20,0">
+                    <Label Text="Apellido: " TextColor="Black" FontSize="17" VerticalOptions="Center"></Label>
+                    <Label Text="{Binding LastName}" HorizontalOptions="EndAndExpand" VerticalOptions="Center"></Label>
+                </StackLayout>
+            </ViewCell>
+            <ViewCell>
+                <StackLayout Orientation="Horizontal" Padding="20,0">
+                    <Label Text="Género: " TextColor="Black" FontSize="17" VerticalOptions="Center"></Label>
+                    <Label Text="{Binding Gender}" HorizontalOptions="EndAndExpand" VerticalOptions="Center"></Label>
+                </StackLayout>
+            </ViewCell>
+            <ViewCell>
+                <StackLayout Orientation="Horizontal" Padding="20,0">
+                    <Label Text="Nacimiento: " TextColor="Black" FontSize="17" VerticalOptions="Center"></Label>
+                    <Label Text="{Binding Birthday}" HorizontalOptions="EndAndExpand" VerticalOptions="Center"></Label>
+                </StackLayout>
+            </ViewCell>
+                </TableSection>
+        </TableRoot>
+    </TableView>
+
+   
+    
+</ContentPage>

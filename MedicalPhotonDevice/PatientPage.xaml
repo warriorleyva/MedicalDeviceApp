@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="MedicalPhotonDevice.PatientPage"
+             Title="Paciente">
+
+    
+
+    <StackLayout Spacing="20" Padding="40, 10"> 
+        <Label Text="Ingrese los datos:" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+        <Entry x:Name="Nombre" FontSize="20" Placeholder="Nombre"></Entry>
+        <Entry x:Name="Apellido" FontSize="20" Placeholder="Apellido"></Entry>
+        <DatePicker x:Name="Nacimiento"></DatePicker>
+        <Picker x:Name="Genero" Title="Género">
+            <Picker.Items>
+            <x:String>Masculino</x:String>
+            <x:String>Femenino</x:String>    
+            </Picker.Items>
+        </Picker>
+        <Button Text="Aceptar" HorizontalOptions="Center" Clicked="Aceptar_Clicked"></Button>
+    </StackLayout>
+    
+</ContentPage>

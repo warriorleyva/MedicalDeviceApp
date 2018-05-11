@@ -1,0 +1,27 @@
+Function=xamarin_timezone_get_data
+	/Users/warriorleyva/Projects/MedicalPhotonDevice/iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/warriorleyva/Projects/MedicalPhotonDevice/iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/warriorleyva/Projects/MedicalPhotonDevice/iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache/Link/mscorlib.dll
+Function=CreateZStream
+	/Users/warriorleyva/Projects/MedicalPhotonDevice/iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Users/warriorleyva/Projects/MedicalPhotonDevice/iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache/Link/System.dll
+Function=Flush
+	/Users/warriorleyva/Projects/MedicalPhotonDevice/iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Users/warriorleyva/Projects/MedicalPhotonDevice/iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Users/warriorleyva/Projects/MedicalPhotonDevice/iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Users/warriorleyva/Projects/MedicalPhotonDevice/iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache/Link/System.dll
+Function=xamarin_get_block_descriptor
+	/Users/warriorleyva/Projects/MedicalPhotonDevice/iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/warriorleyva/Projects/MedicalPhotonDevice/iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/warriorleyva/Projects/MedicalPhotonDevice/iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache/Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/warriorleyva/Projects/MedicalPhotonDevice/iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache/Link/Xamarin.iOS.dll
+Function=mono_pmip
